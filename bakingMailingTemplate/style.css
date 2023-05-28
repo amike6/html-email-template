@@ -1,0 +1,169 @@
+body{
+    background-color: #f4f4f4;
+}
+.container{
+    background-color: white;
+    width: 600px;
+}
+.hc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.he{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ve{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.headerTitle{
+    display: flex;
+    margin: 0px;
+}
+.design{
+    padding: 0 10px;
+    margin: 0px;
+}
+.title h1{
+    border-bottom: solid;
+    border-color: greenyellow;
+    border-width: 3px;
+}
+.item h3{
+    border-bottom: solid;
+    border-color: greenyellow;
+    border-width: 3px;
+    padding-bottom: 5px;
+}
+.itemReverse h3{
+    border-bottom: solid;
+    border-color: greenyellow;
+    border-width: 3px;
+    padding-bottom: 5px;
+}
+.introImg{
+    background-image: url('https://globalgrasshopper.com/wp-content/uploads/2020/04/Lake-Como-Italy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 459px;
+
+    color:black;
+}
+.introContent{
+    border-style: solid;
+    padding: 100px;
+    border-color: white;
+    border-width:  10px; ;
+    background: rgba(255, 255, 255, 0.4);
+
+}
+.item{
+    display: flex;
+    padding-top: 20px;
+}
+.itemContent{
+    width: 220px;
+    padding: 0 40px;
+}
+.itemReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.itemImg{
+    width: 240px;
+    padding: 0 30px;
+}
+.itemImg img{
+    width: 100%;
+}
+.secImg{
+    background-image: url('https://www.thespruceeats.com/thmb/kcE38dQZAwpFrG08grcNYGYztbQ=/960x639/filters:fill(auto,1)/BakedStuffedLobster-TheSpruce_DianaChistruga-3fcb6301491a4be193ecf40d0735e8d1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 150px;
+
+    color:black;
+
+}
+.secContent{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.90);
+}
+.secTitle h2{
+    margin: 0px;
+}
+.secsubtitle h4{
+    margin: 10px 0;
+}
+button{
+    background-color: #354552;
+    color:white;
+    border: none;
+    padding: 10px  25px;
+    border-radius: 3px;
+    margin: 30px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+}
+.end{
+    margin: 20px 0 25px;
+}
+.EndTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socailMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .container{
+        width: 300px;
+    }    
+    .item,.itemReverse{
+        display:block;
+        padding-bottom: 20px;
+    }
+    .he{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .introImg{
+        
+        width: 100%;
+        height: 230px;
+    
+        color:black;
+    }
+    .introContent{
+        width: 200px;
+        text-align: center;
+        color:black;
+        padding: 10px;
+    }
+    .introContent h1{
+        font-size: 35px;
+    }
+  }
